@@ -7,8 +7,24 @@ public class ReverseWords {
         char[] str = s.toCharArray();
         //去除多余的前置、后置和内部空格
         int newLength = trim(str);
+        //全tm是空格
+        if (newLength == 0) {
+            return "";
+        }
+        //TODO 两次翻转
+        reverse(str,0,newLength-1);
+
 
         return null;
+    }
+
+    private void reverse(char[] str, int p, int r) {
+        int mid = (p + r) / 2;
+        for (int i = p; i <= mid; ++i) {
+            char tmp = str[i];
+            str[i] = str[r - (i - p)];
+            str[r - (i - p)] = tmp;
+        }
     }
 
     /**
