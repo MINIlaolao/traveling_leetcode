@@ -1,3 +1,5 @@
+package purecode;
+
 import java.util.Arrays;
 
 /**

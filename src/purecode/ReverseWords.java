@@ -1,3 +1,5 @@
+package purecode;
+
 /**
  * @author laoqixin    [qixin.lao@isee.work]
  * @date 2021/8/21 23:51
