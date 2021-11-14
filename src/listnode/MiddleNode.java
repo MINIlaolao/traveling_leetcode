@@ -1,7 +1,7 @@
 package listnode;
 
 /**
- * @author laoqixin    [qixin.lao@isee.work]
+ * @author laoqixin    [lmao6688@gmail.com]
  * @date 2021/10/2 19:10
  */
 public class MiddleNode {

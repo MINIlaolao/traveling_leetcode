@@ -1,7 +1,7 @@
 package listnode;
 
 /**
- * @author laoqixin    [qixin.lao@isee.work]
+ * @author laoqixin    [lmao6688@gmail.com]
  * @date 2021/10/2 19:38
  */
 public class DeleteDuplicates {
@@ -9,17 +9,25 @@ public class DeleteDuplicates {
         if (head == null) {
             return null;
         }
-        ListNode newHead = new ListNode();
-        newHead.next = head;
-        ListNode prev = newHead;
-        while (prev != null) {
-            if (prev.val == prev.next.val) {
-                prev.next = prev.next.next;
+        ListNode p = head;
+        //输入的有可能是 0 所以不能用无参构造 int(type) default value = 0
+        ListNode newHead = new ListNode(-1);
+        ListNode tail = newHead;
+
+        while (p != null) {
+            ListNode tmp = p.next;
+            if (p.val != tail.val) {
+                tail.next = p;
+                //tail指向p
+                tail = p;
+                //断开
+                p.next = null;
             }
-            prev = prev.next;
+            p = tmp;
         }
         return newHead.next;
     }
+
 
     public static void main(String[] args) {
         DeleteDuplicates deleteDuplicates = new DeleteDuplicates();

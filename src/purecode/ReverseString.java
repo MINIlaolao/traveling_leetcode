@@ -1,7 +1,7 @@
 package purecode;
 
 /**
- * @author laoqixin    [qixin.lao@isee.work]
+ * @author laoqixin    [lmao6688@gmail.com]
  * @date 2021/8/20 00:02
  */
 public class ReverseString {

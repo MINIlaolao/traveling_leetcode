@@ -3,7 +3,7 @@ package purecode;
 import java.util.Arrays;
 
 /**
- * @author laoqixin    [qixin.lao@isee.work]
+ * @author laoqixin    [lmao6688@gmail.com]
  * @date 2021/8/17 15:44
  */
 public class TwoSum {

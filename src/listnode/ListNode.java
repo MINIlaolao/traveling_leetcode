@@ -5,7 +5,7 @@ import com.sun.xml.internal.bind.v2.TODO;
 /**
  * TODO 头插入，尾插入，根据索引插入，根据索引删除,toString
  *
- * @author laoqixin    [qixin.lao@isee.work]
+ * @author laoqixin    [lmao6688@gmail.com]
  * @date 2021/10/2 19:11
  */
 public class ListNode {
