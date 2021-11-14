@@ -1,7 +1,5 @@
 package listnode;
 
-import com.sun.xml.internal.bind.v2.TODO;
-
 /**
  * TODO 头插入，尾插入，根据索引插入，根据索引删除,toString
  *
@@ -24,6 +22,24 @@ public class ListNode {
         this.val = val;
         this.next = next;
     }
+
+
+    /**
+     * 创建多节点链表
+     * TODO
+     * @param vals 参数 多选
+     */
+    ListNode(int... vals){
+//        ListNode newHead = new ListNode();
+//        ListNode p = newHead;
+//        for (int i = 0; i < vals.length; i++) {
+//            ListNode tmp = p.next;
+//            p.val = vals[i];
+//            p.next = null;
+//            this.val = p.val;
+//        }
+    }
+
 
     public ListNode insertAfterHead(int val) {
         if (head == null) {
