@@ -17,7 +17,7 @@ public class IsPalindrome {
     }
 
     public boolean isPalindrome(ListNode head) {
-        //1.
+        //1
         ListNode middleNextNode = middleNode(head);
         //2.
         ListNode reverseNode = reverseList(middleNextNode.next);
