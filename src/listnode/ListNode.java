@@ -7,8 +7,8 @@ package listnode;
  * @date 2021/10/2 19:11
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
     private ListNode head = null;
 
     ListNode() {
