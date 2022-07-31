@@ -6,28 +6,7 @@
 
 ## 结构
 
-> src/
-> ├─purecode
-> | ├─DefangIpaddrC.java
-> | ├─ReverseString.java
-> | ├─ReverseWords.java
-> | └TwoSum.java
-> ├─listnode
-> | ├─AddTwoNumbers.java
-> | ├─DeleteDuplicates.java
-> | ├─IsPalindrome.java
-> | ├─MiddleNode.java
-> | ├─OddEvenList.java
-> | ├─RemoveElements.java
-> | ├─ReverseKGroup.java
-> | ├─ReverseList.java
-> | ├─struct
-> | | └ListNode.java
-> ├─codingInterviews
-> | ├─FindNumberIn2DArray.java
-> | ├─FindRepeatNumber.java
-> | ├─ReplaceSpace.java
-> | └ReversePrint.java
+![image-20220801011547777](https://s2.loli.net/2022/08/01/zrMdlTYsWHGDP2S.png)
 
 ### purecode
 
