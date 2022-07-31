@@ -5,6 +5,11 @@ package listnode;
  * @date 2021/10/2 19:38
  */
 public class DeleteDuplicates {
+    public static void main(String[] args) {
+        DeleteDuplicates deleteDuplicates = new DeleteDuplicates();
+        System.out.println(deleteDuplicates.deleteDuplicates(new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3)))))));
+    }
+
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {
             return null;
@@ -26,11 +31,5 @@ public class DeleteDuplicates {
             p = tmp;
         }
         return newHead.next;
-    }
-
-
-    public static void main(String[] args) {
-        DeleteDuplicates deleteDuplicates = new DeleteDuplicates();
-        System.out.println(deleteDuplicates.deleteDuplicates(new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3)))))));
     }
 }

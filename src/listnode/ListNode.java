@@ -27,9 +27,10 @@ public class ListNode {
     /**
      * 创建多节点链表
      * TODO
+     *
      * @param vals 参数 多选
      */
-    ListNode(int... vals){
+    ListNode(int... vals) {
 //        ListNode newHead = new ListNode();
 //        ListNode p = newHead;
 //        for (int i = 0; i < vals.length; i++) {

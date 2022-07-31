@@ -26,7 +26,7 @@ public class ReverseKGroup {
             if (q == null) {
                 tail.next = p;
                 return dummyHead.next;
-            }else {
+            } else {
                 //k不剩下的情况
                 ListNode tmp = q.next;
                 ListNode[] reverseList = reverse(p, q);
@@ -54,6 +54,6 @@ public class ReverseKGroup {
         tail.next = newHead;
         newHead = tail;
         //翻转过后只需把头尾调转返回
-        return new ListNode[]{tail,head};
+        return new ListNode[]{tail, head};
     }
 }

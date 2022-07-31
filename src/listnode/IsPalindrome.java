@@ -43,7 +43,7 @@ public class IsPalindrome {
     }
 
     private ListNode reverseList(ListNode middleNextNode) {
-        if (middleNextNode==null){
+        if (middleNextNode == null) {
             return null;
         }
         //不能用无参构造 有默认值
