@@ -1,5 +1,7 @@
 package listnode;
 
+import listnode.struct.ListNode;
+
 /**
  * 1.找到中间节点
  * 2.反转中间节点.next后的链表

@@ -1,4 +1,4 @@
-package listnode;
+package listnode.struct;
 
 /**
  * TODO 头插入，尾插入，根据索引插入，根据索引删除,toString
@@ -11,14 +11,14 @@ public class ListNode {
     public ListNode next;
     private ListNode head = null;
 
-    ListNode() {
+    public ListNode() {
     }
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
-    ListNode(int val, ListNode next) {
+    public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }

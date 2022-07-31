@@ -1,5 +1,7 @@
 package listnode;
 
+import listnode.struct.ListNode;
+
 /**
  * [ head>1>6>3>2>1>null ]
  *

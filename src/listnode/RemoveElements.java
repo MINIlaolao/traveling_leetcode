@@ -1,5 +1,7 @@
 package listnode;
 
+import listnode.struct.ListNode;
+
 /**
  * @author laoqixin    [lmao6688@gmail.com]
  * @date 2021/10/2 18:06
