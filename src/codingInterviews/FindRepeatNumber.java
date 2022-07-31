@@ -26,7 +26,7 @@ public class FindRepeatNumber {
             //下标法：根据下标和对应元素值匹配，如果两者不等，则将元素替换到相等下标的位置，即 nums[num[i]] = nums[i],期间，如果替换的时候出现相同的值，说明重复了，return
             //当数组值不等于下标时，替换。
             while (nums[i] != i) {
-                if (nums[i]==nums[nums[i]]){
+                if (nums[i] == nums[nums[i]]) {
                     return nums[i];
                 }
                 //把数组值放到数组下标，下标和值相等

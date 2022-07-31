@@ -41,6 +41,7 @@ public class ReplaceSpace {
 
     /**
      * 动态扩容
+     *
      * @param s
      * @return
      */
